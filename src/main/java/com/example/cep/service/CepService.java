@@ -50,6 +50,7 @@ public class CepService {
         cep.setBairro(!consultaCep.getBairro().equals(null) ? consultaCep.getBairro() : "");
         cep.setLogradouro(!consultaCep.getLogradouro().equals(null) ? consultaCep.getLogradouro() : "");
         cep.setDdd(!consultaCep.getDdd().equals(null) ? consultaCep.getDdd() : "");
+        cep.setUf(!consultaCep.getUf().equals(null) ? consultaCep.getUf() : "");
         return cep;
     }
 
