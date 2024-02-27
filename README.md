@@ -41,10 +41,6 @@ Esta API desenvolvida em Java com o framework Spring oferece uma solução efici
 
 - `GET /cep/{cep}`: Retorna informações detalhadas sobre o CEP especificado.
 
-### Lista de CEPs Consultados:
-
-- `GET /ceps`: Retorna a lista de todos os CEPs consultados e armazenados localmente.
-
 ## Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests para melhorar esta API.
